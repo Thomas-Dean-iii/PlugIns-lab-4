@@ -28,7 +28,7 @@ public class BigMeteor : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D whatIHit)
+    private void OnTriggerEnter(Collider whatIHit)
     {
         if (whatIHit.tag == "Player")
         {

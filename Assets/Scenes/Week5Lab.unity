@@ -157,7 +157,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 8141393189754555321, guid: 78da5bc7391e681469a6daeeda50dc41, type: 3}
   m_Follow: {fileID: 8141393189754555321, guid: 78da5bc7391e681469a6daeeda50dc41, type: 3}
   m_Lens:
     FieldOfView: 60
