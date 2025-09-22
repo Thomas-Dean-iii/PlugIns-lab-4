@@ -44,9 +44,7 @@ public class Player : MonoBehaviour
     void CalculateMovement()
     {
         Vector2 _playerInput = _playerInputActions.Player.Movement.ReadValue<Vector2>();
-
         Vector3 move = new Vector3(_playerInput.x, _playerInput.y, 0);
-
         _controller.Move(move * speed * Time.deltaTime);
     }
 

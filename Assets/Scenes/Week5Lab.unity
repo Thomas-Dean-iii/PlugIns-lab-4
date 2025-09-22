@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560852287}
   - component: {fileID: 560852286}
+  - component: {fileID: 560852288}
   m_Layer: 0
   m_Name: FollowCamera
   m_TagString: Untagged
@@ -194,6 +195,18 @@ Transform:
   - {fileID: 1311061542}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560852288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560852285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19cc7cce91502ed4a8620c620b65344a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +314,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -438,6 +452,18 @@ MonoBehaviour:
     m_FrequencyGain: 1
     m_Duration: 1
     m_NoiseOffsets: {x: 0, y: 0, z: 0}
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19cc7cce91502ed4a8620c620b65344a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &998771951
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 785a99b22a9124b4e873115e8e2408af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 7158442464957206486, guid: 78da5bc7391e681469a6daeeda50dc41, type: 3}
+  Target: {fileID: 0}
   meteorPrefab: {fileID: 5841098876348517303, guid: 6d66530d7aa7838409a2fd8d5bf6a0a4, type: 3}
   bigMeteorPrefab: {fileID: 5841098876348517303, guid: d601771a08acde745ae7ef51fc2d67b8, type: 3}
   gameOver: 0

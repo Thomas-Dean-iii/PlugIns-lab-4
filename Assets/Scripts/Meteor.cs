@@ -14,12 +14,7 @@ public class Meteor : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.down * Time.deltaTime * 2f);
 
-        if (transform.position.y < -11f)
-        {
-            Destroy(this.gameObject);
-        }
     }
 
     private void OnTriggerEnter(Collider whatIHit)
